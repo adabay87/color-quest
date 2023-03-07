@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(13, 14, 12);
     /*#aaa*/
     color     : white;
     height: 100%;
@@ -289,7 +289,7 @@ body {
     text-shadow        : 3px 3px black;
     background-image   : linear-gradient(to right, red, green, blue);
     box-shadow         : 5px 5px black;
-    /* background-color: green; */
+    
  }
  
  
