@@ -123,25 +123,25 @@ hardMode.addEventListener('click', function () {
     }
     expertMode.textContent = 'RGB Expert';
 });
-// expertMode.addEventListener('click', function () {
-//     headOne.textContent = 'Type The Three Channal Values In The Box Below to represent the color shown';
-//     spanMessege.textContent = 'GUESS THIS COLOR\'S RGB VALUE';
-//     easyHard.style.display = 'none';
-//     headOne.style.display = 'block';
-//     randomMessege();
-//     messageDisplay.textContent = '';
-//     headContainer.style.backgroundColor = '#aaa';
-//     reset.style.display = 'none';
-//     guesedColor.style.display = 'none';
-//     pickedColor = randomColor();
-//     headContainer.style.display = 'block';
-//     colorDisplay.textContent = '';
-//     colorSquer.style.backgroundColor = pickedColor;
-//     expertDisplay.style.display = 'block';
-//     allExpertElements.style.display = 'block';
-//     allColorsquers.style.display = 'none';
-//     expertMode.textContent = 'New Color';
-// });
+        expertMode.addEventListener('click', function () {
+        headOne.textContent = 'Type The Three Channal Values In The Box Below to represent the color shown';
+        spanMessege.textContent = 'GUESS THIS COLOR\'S RGB VALUE';
+        easyHard.style.display = 'none';
+        headOne.style.display = 'block';
+        randomMessege();
+        messageDisplay.textContent = '';
+        headContainer.style.backgroundColor = '#aaa';
+        reset.style.display = 'none';
+        guesedColor.style.display = 'none';
+        pickedColor = randomColor();
+        headContainer.style.display = 'block';
+        colorDisplay.textContent = '';
+        colorSquer.style.backgroundColor = pickedColor;
+        expertDisplay.style.display = 'block';
+        allExpertElements.style.display = 'block';
+        allColorsquers.style.display = 'none';
+        expertMode.textContent = 'New Color';
+     });
 greenbtn.addEventListener('click', function () {
     var count = 0;
     guesedColor.style.display = 'block';
